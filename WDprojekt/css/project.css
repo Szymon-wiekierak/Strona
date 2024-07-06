@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(202, 202, 202);
+    border-bottom: 1px solid #eaeaea;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: rgb(0, 208, 255);
+  }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: rgb(247, 243, 243);
+}
+
+.project-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 40px;
+}
+
+.project-info {
+    max-width: 45%; 
+}
+
+.project-info h1 {
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+.project-info p {
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.project-meta p {
+    margin: 10px 0;
+}
+
+.project-image {
+    max-width: 45%;
+}
+
+.project-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.project-navigation a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+}
+
+.project-navigation a:hover {
+    background-color: #f0f0f0;
+}
+
+footer {
+    background-color: rgb(36, 35, 35);
+    color: rgb(191, 186, 186);
+    padding: 20px;
+    text-align: left;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .footer-left,
+footer .footer-right,
+footer .footer-contact {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+footer .footer-info{
+    margin:5px;
+    flex: 1;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.footer-links {
+    display: flex;
+    gap: 70px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li a {
+    color: rgb(191, 186, 186);
+    text-decoration: none;
+}

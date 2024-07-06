@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #cacaca;
+    border-bottom: 1px solid #eaeaea;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: rgb(0, 208, 255);
+  }
+
+.contact-info {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    background: #f8f8f8;
+}
+
+.contact-details {
+    max-width: 40%;
+}
+
+.contact-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    max-width: 55%;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #00bfa5;
+    color: white;
+    cursor: pointer;
+}
+
+.map {
+    padding: 50px;
+}
+
+.map img {
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(36, 35, 35);
+    color: rgb(191, 186, 186);
+    padding: 20px;
+    text-align: left;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .footer-left,
+footer .footer-right,
+footer .footer-contact {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+footer .footer-info{
+    margin:5px;
+    flex: 1;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.footer-links {
+    display: flex;
+    gap: 70px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li a {
+    color: rgb(191, 186, 186);
+    text-decoration: none;
+}
